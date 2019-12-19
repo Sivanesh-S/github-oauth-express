@@ -2,7 +2,7 @@
 
 - A simple package to get the `access_token` of a Github account for a particular client. So that we can call Github's user specific APIs.
 - Follow these steps to create a Github App and get `client_id`, `client_secret`.
-  - Go to your account [Github](https://github.com).
+  - [Login Github](https://github.com).
   - Click your profile icon -> `Settings` -> `Developer Settings` -> `OAuth Apps` -> `New OAuth App`.
   - Enter your app details and specifically `callback URL`.
 - In your App's Github Login button the redirection link must be
@@ -11,7 +11,7 @@
 `https://github.com/login/oauth/authorize?client_id=${YOUR_CLIENT_ID}`;
 ```
 
-![](./images/OAuth-github.jpg?raw=true)
+![](./images/OAuth-github.JPG)
 
 ## Implementation
 
