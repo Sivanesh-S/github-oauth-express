@@ -11,7 +11,7 @@
 `https://github.com/login/oauth/authorize?client_id=${YOUR_CLIENT_ID}`;
 ```
 
-![](./images/OAuth-github.jpg?raw=true)
+![](./images/OAuth-github.JPG)
 
 ## Implementation
 
