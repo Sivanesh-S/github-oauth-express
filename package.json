@@ -1,0 +1,25 @@
+{
+  "name": "github-oauth-express",
+  "version": "1.0.0",
+  "description": "A small package to enable Github Login and access to your Express application",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "github",
+    "oauth",
+    "auth",
+    "token",
+    "login",
+    "authentication"
+  ],
+  "author": "Sivanesh",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.19.0"
+  },
+  "devDependencies": {
+    "express": "^4.17.1"
+  }
+}
