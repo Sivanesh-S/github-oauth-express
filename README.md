@@ -1,6 +1,6 @@
 # github-oauth-express
 
-- A simple package to get the access token of a Github account for a particular client.
+- A simple package to get the `access_token` of a Github account for a particular client. So that we can call Github's user specific APIs.
 - Follow these steps to create a Github App and get `client_id`, `client_secret`.
   - Go to your account [Github](https://github.com).
   - Click your profile icon -> `Settings` -> `Developer Settings` -> `OAuth Apps` -> `New OAuth App`.
@@ -11,7 +11,7 @@
 `https://github.com/login/oauth/authorize?client_id=${YOUR_CLIENT_ID}`;
 ```
 
-![](./images/OAuth-github.jpg)
+![](./images/OAuth-github.jpg?raw=true)
 
 ## Implementation
 
