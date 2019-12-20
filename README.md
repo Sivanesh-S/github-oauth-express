@@ -23,7 +23,7 @@ Here you can obtain authToken using both callback way as well as promise way.
 const express = require('express');
 const app = express();
 
-const githubAPI = require('../');
+const githubAPI = require('github-oauth-express');
 
 // YOUR EXPRESS APPLICATION
 
@@ -47,7 +47,7 @@ githubAPI(
 const express = require('express');
 const app = express();
 
-const githubAPI = require('../');
+const githubAPI = require('github-oauth-express');
 
 // YOUR EXPRESS APPLICATION
 
