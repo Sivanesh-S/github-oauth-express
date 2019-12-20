@@ -68,3 +68,12 @@ githubAPI(
   }
 );
 ```
+
+Once Auth Token obtained you can call [Githubs Developer APIs](https://developer.github.com/v3/) by just adding a header in each request as
+```json
+{
+  "headers": {
+    "Accept": "application/json"
+  }
+}
+```
