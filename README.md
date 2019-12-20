@@ -11,7 +11,7 @@
 `https://github.com/login/oauth/authorize?client_id=${YOUR_CLIENT_ID}`;
 ```
 
-![](./images/OAuth-github.JPG)
+![](https://sivanesh-s.github.io/images/OAuth-github.jpg)
 
 ## Implementation
 
@@ -70,6 +70,7 @@ githubAPI(
 ```
 
 Once Auth Token obtained you can call [Githubs Developer APIs](https://developer.github.com/v3/) by just adding a header in each request as
+
 ```json
 {
   "headers": {
